@@ -1851,7 +1851,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1214833425713930, guid: 90a18773e670f054680d2f39c76a5471, type: 3}
       propertyPath: m_Name
-      value: Barrel_03_snaps002
+      value: target
       objectReference: {fileID: 0}
     - target: {fileID: 4959057358301152, guid: 90a18773e670f054680d2f39c76a5471, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1923,6 +1923,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 50
+  explotion: {fileID: 3926911404606176982, guid: 3d7706adb1cbfe8499e2cd84ff421d27,
+    type: 3}
 --- !u!54 &236086655
 Rigidbody:
   m_ObjectHideFlags: 0
